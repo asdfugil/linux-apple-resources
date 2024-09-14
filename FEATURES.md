@@ -20,6 +20,5 @@ X - not supported
 |    Reboot	   	|  ✓ 	|  ✓ 	|  ✓  	|  ✓ 	|  ✓  	|  ✓  	|   ✓  	|  ✓ 	|  ✓  	|
 |   Pin controller     	|  ✓ 	|  ✓ 	|  ✓  	|  ✓ 	|  ✓  	|  ✓  	|   ✓  	|  ✓ 	|  ✓  	|
 |     Buttons     	|  ✓ 	|  ✓ 	|  ✓  	|  ✓ 	|  ✓  	|  ✓  	|   ✓  	|  - 	|  X  	|
-| CPU frequency scaling |  X 	|  X 	|  X  	|  X 	|  X  	|  ✓  	|   X  	|  X 	|  X  	|
 
 USB only works in device mode.
