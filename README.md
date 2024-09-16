@@ -30,7 +30,7 @@ cc pongoterm.c -DUSE_LIBUSB -Os -lusb-1.0 -o pongoterm
 
 macOS:
 ```
-cc pongoterm.c -Os -o pongoterm
+clang -x objective-c pongoterm.c -framework IOKit -framework CoreFoundation -framework Foundation -Os -o pongoterm
 ```
 
 ### Kernel config
