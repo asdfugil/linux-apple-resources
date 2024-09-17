@@ -37,25 +37,33 @@ clang -x objective-c pongoterm.c -framework IOKit -framework CoreFoundation -fra
 
 Enable:
 
-- `CONFIG_ARCH_APPLE`
+- CONFIG_ARCH_APPLE
+```
 Platform Selection
   -> Apple Silicon SoC family
+```
 
 For A7-A8, enable:
-- `CONFIG_ARM64_4K`
+- CONFIG_ARM64_4K
+```
 Kernel Features
   -> Page size (4KB)
+```
 
 For A9-A11, enable:
-- `CONFIG_ARM64_16K`
+- CONFIG_ARM64_16K
+```
 Kernel Features
   -> Page size (16KB)
+```
 
 When trying to run on A10(X) also enable:
-- `CONFIG_ARM64_WORKAROUND_APPLE_FUSION`
+- CONFIG_ARM64_WORKAROUND_APPLE_FUSION
+```
 Kernel Features
   -> ARM errata workarounds via the alternatives framework
     -> Apple Hurricane-Zephyr: Variations between physical P-core and E-core presented as a single logical core
+```
 
 ### Prepare m1n1 blob
 
