@@ -52,7 +52,7 @@ Kernel Features
   -> Page size (16KB)
 
 When trying to run on A10(X) also enable:
-- `ARM64_WORKAROUND_APPLE_FUSION`
+- `CONFIG_ARM64_WORKAROUND_APPLE_FUSION`
 Kernel Features
   -> ARM errata workarounds via the alternatives framework
     -> Apple Hurricane-Zephyr: Variations between physical P-core and E-core presented as a single logical core
