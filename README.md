@@ -6,7 +6,7 @@ Excluded devices:
   - HomePod (not tested, so no device tree included)
   - T2 (broken bootloader)
 
-Supported firmware versions: iOS/iPadOS/tvOS 9.0 - 18.x
+Supported firmware versions: iOS/iPadOS/tvOS 9.0 - 18.0
 
 ## Preparing files
 
