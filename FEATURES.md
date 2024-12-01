@@ -13,15 +13,15 @@ X - not supported
 
 |               	  | A7 	| A8 	| A8X	| A9 	| A9X | A10 | A10X |  T2  | A11 |
 |:-----------------------:|:---:|:-----:|:-----:|:-----:|:---:|:---:|:----:|:----:|:---:|
-|      Boot     	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | WIP  | ✓   |
+|      Boot     	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | ✓    | ✓   |
 |    Multi-core   	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | ✓    | ✓   |
 |    Framebuffer   	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | ✓    | ✓   |
 |     Serial     	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | ✓    | ✓   |
 |      USB	     	  |  P 	|  P 	|  P 	|  P 	|  P  |  P  |   P  | P    | P   |
-|    Reboot	   	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | ✓    | ✓   |
-|   Pin controller        |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | ✓    | ✓   |
+|    Reboot               |  ✓ 	|  ✓    |  ✓    |  ✓    |  ✓  |  ✓  |   ✓  | ✓    | ✓   |
+|   Pin controller        |  ✓  |  ✓    |  ✓    |  ✓    |  ✓  |  ✓  |   ✓  | ✓    | ✓   |
 |     Buttons     	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | -    | X   |
-|     cpufreq     	  | WIP | WIP   | WIP   | WIP   | WIP | WIP | WIP  | WIP  | WIP |
+|     cpufreq     	  |  ✓  |  ✓    |  ✓    |  ✓    |  ✓  |  ✓  |   ✓  | ✓    | ✓   |
 
 
 USB only works in device mode.
