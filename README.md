@@ -1,10 +1,9 @@
 # linux-apple-resources
 
-Instructions to boot Linux on A7-A11 Apple devices.
+Instructions to boot Linux on A7-A11, T2 Apple devices.
 
 Excluded devices:
   - HomePod (not tested, so no device tree included)
-  - T2 (broken bootloader)
 
 Supported firmware versions: iOS/iPadOS/tvOS 9.0 - 18.0
 
