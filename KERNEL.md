@@ -43,6 +43,9 @@ Device Drivers
 ```
 Enable support for the Samsung serial ports found on A7-A11 SoCs.
 
+- ARM_APPLE_SOC_CPUFREQ
+Enable support for CPU frequency scaling
+
 - PINCTRL_APPLE_GPIO
 ```
 Device Drivers
@@ -67,6 +70,9 @@ Kernel Features
   -> Page size (16KB)
 ```
 A9-A11 supports 4K and 64K page sizes. This builds a 16K kernel.
+
+For USB:
+Enable:
 
 - CONFIG_USB_GADGETFS
 - CONFIG_USB_FUNCTIONFS
