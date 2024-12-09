@@ -71,9 +71,12 @@ Kernel Features
 ```
 A9-A11 supports 4K and 64K page sizes. This builds a 16K kernel.
 
+- CONFIG_BACKLIGHT_APPLE_DWI
+This enables backlight support on some iPhone, iPad and iPod touch
+models.
+
 For USB:
 Enable:
-
 - CONFIG_USB_GADGETFS
 - CONFIG_USB_FUNCTIONFS
 - CONFIG_USB_FUNCTIONFS_ETH

@@ -17,11 +17,12 @@ X - not supported
 |    Multi-core   	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | ✓    | ✓   |
 |    Framebuffer   	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | ✓    | ✓   |
 |     Serial     	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | ✓    | ✓   |
-|      USB	     	  |  P 	|  P 	|  P 	|  P 	|  P  |  P  |   P  | P    | P   |
+|      USB[1]	     	  |  P 	|  P 	|  P 	|  P 	|  P  |  P  |   P  | P    | P   |
 |    Reboot               |  ✓ 	|  ✓    |  ✓    |  ✓    |  ✓  |  ✓  |   ✓  | ✓    | ✓   |
 |   Pin controller        |  ✓  |  ✓    |  ✓    |  ✓    |  ✓  |  ✓  |   ✓  | ✓    | ✓   |
 |     Buttons     	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | -    | X   |
 |     cpufreq     	  |  ✓  |  ✓    |  ✓    |  ✓    |  ✓  |  ✓  |   ✓  | ✓    | ✓   |
+|      backlight          |P[2] |  ✓    |  X    |  ✓    |  X  |  ✓  |   X  | X    | X   |
 
-
-USB only works in device mode.
+[1]: USB only works in device mode.
+[2]: iPhone 5s only
