@@ -22,7 +22,8 @@ X - not supported
 |   Pin controller        |  ✓  |  ✓    |  ✓    |  ✓    |  ✓  |  ✓  |   ✓  | ✓    | ✓   |
 |     Buttons     	  |  ✓ 	|  ✓ 	|  ✓ 	|  ✓ 	|  ✓  |  ✓  |   ✓  | -    | X   |
 |     cpufreq     	  |  ✓  |  ✓    |  ✓    |  ✓    |  ✓  |  ✓  |   ✓  | ✓    | ✓   |
-|      backlight          |P[2] |  ✓    |  X    |  ✓    |  X  |  ✓  |   X  | X    | X   |
+|      backlight          |P[2] |  ✓    |  X    |  ✓    |  X  |  ✓  |   X  | X    |P[3] |
 
 [1]: USB only works in device mode.
 [2]: iPhone 5s only
+[3]: iPhone 8 and 8 Plus only
