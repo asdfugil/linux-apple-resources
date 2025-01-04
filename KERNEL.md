@@ -1,5 +1,10 @@
 # Kernel Config
 
+Edit config with clang using:
+```
+make -j$(nproc) ARCH=arm64 LLVM=1 menuconfig
+```
+
 Enable:
 
 - ARCH_APPLE
