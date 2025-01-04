@@ -36,6 +36,12 @@ clang -x objective-c pongoterm.c -framework IOKit -framework CoreFoundation -fra
 
 [KERNEL.md](./KERNEL.md)
 
+To compile the kernel with clang:
+```
+make -j$(nproc) ARCH=arm64 LLVM=1 Image.gz dtbs
+```
+
+
 ### Prepare m1n1 blob
 
 Assuming you are in the m1n1 source tree, the command should look like this.
