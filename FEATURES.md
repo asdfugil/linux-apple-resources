@@ -1,6 +1,6 @@
 # Feature Support
 
-These documents provide information on feature support on supported devices as well as upstreaming statistics
+These documents provide information on feature support on supported devices as well as upstreaming statistics.
 
 ## Feature Support by SoC
 
