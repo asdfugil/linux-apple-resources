@@ -1,9 +1,20 @@
 # Feature Support
 
-This document has been split into multiple parts.
+These documents provide information on feature support on supported devices as well as upstreaming statistics
+
+## Feature Support by SoC
 
 - [A7 Devices Feature Support](./features/A7.md)
 - [A8/A8X Devices Feature Support](./features/A8.md)
 - [A9/A9X Devices Feature Support](./features/A9.md)
 - [A10/A10X/T2 Devices Feature Support](./features/A10.md)
 - [A11 Devices Feature Support](./features/A11.md)
+
+## Upstreaming staticstics
+
+The table below lists the amount of non-merge commits between each mainline release and the corresponding linux-apple tag.
+<!-- git rev-list v6.13..apple-6.13 --no-merges --count -->
+
+|              | linux-apple tag | commit count |
+|--------------|:---------------:|:------------:|
+| v6.13        | apple-6.13      | 82           |
