@@ -79,3 +79,7 @@ After booting pongoOS, run pongoterm as root:
 ```
 printf '/send /path/to/m1n1-linux.bin\nbootm\n' | sudo pongoterm
 ```
+
+----
+
+*Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.*
