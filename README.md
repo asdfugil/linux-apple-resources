@@ -80,6 +80,13 @@ After booting pongoOS, run pongoterm as root:
 printf '/send /path/to/m1n1-linux.bin\nbootm\n' | sudo pongoterm
 ```
 
+## Acknowledgements
+
+- [Asahi Linux](https://asahilinux.org/) - m1n1 and Apple M1 Linux support
+- [checkra1n](https://checkra.in) - pongoOS and checkm8 exploit implementation
+- [Konrad Dybcio](https://konradybcio.pl) - Original linux-apple porter
+- [Corellium](https://github.com/corellium) - Sandcastle Linux port
+
 ----
 
 *Linux® is the registered trademark of Linus Torvalds in the U.S. and other countries.*
