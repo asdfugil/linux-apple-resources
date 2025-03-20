@@ -20,6 +20,9 @@ Supported firmware versions: iOS/iPadOS/tvOS 9.0 - 18.0
 
 Prebuilt PongoOS and can be found in this repository. You can find
 prebuilt m1n1-idevice binaries from the [CI build output](https://nightly.link/asdfugil/m1n1-idevice/workflows/build/idevice/m1n1.zip).
+`m1n1.bin` is that one that should be used alongside pongoOS like in the following instructions. `m1n1-idevice.macho` and `monitor-stub.macho`
+is for booting with Apple's iBoot. That process is more complicated and has not been documented yet.
+
 Note: palera1n's pongoOS already have bootm
 
 ### pongoterm.c compile instructions
