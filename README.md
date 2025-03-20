@@ -18,7 +18,8 @@ Supported firmware versions: iOS/iPadOS/tvOS 9.0 - 18.0
 - [pongoterm.c](https://github.com/palera1n/PongoOS/raw/iOS15/scripts/pongoterm.c)
 - An arm64 initramfs, an example is included here as well.
 
-Prebuilt PongoOS and m1n1 binaries can be found in this repository.
+Prebuilt PongoOS and can be found in this repository. You can find
+prebuilt m1n1-idevice binaries from the [CI build output](https://nightly.link/asdfugil/m1n1-idevice/workflows/build/idevice/m1n1.zip).
 Note: palera1n's pongoOS already have bootm
 
 ### pongoterm.c compile instructions
