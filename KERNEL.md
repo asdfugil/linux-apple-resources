@@ -60,6 +60,17 @@ Device Drivers
 Enable support for the pin controller found on A7-A11 SoCs, 
 which the buttons are wired to on A7-A10X.
 
+- CONFIG_BACKLIGHT_APPLE_DWI
+This enables backlight support on some iPhone, iPad and iPod touch
+models.
+
+- CONFIG_I2C_APPLE
+Enable PA Semi SMBus I2C controller present on the SoCs.
+
+- BACKLIGHT_DA2XXX
+Enable support for backlight connected to WLED output of Dialog
+DA2089/DA2207/DA2257/DA2400 PMICs, as used on some iPads.
+
 For A7-A8X, enable:
 - CONFIG_ARM64_4K
 ```
@@ -75,10 +86,6 @@ Kernel Features
   -> Page size (16KB)
 ```
 A9-A11 supports 4K and 64K page sizes. This builds a 16K kernel.
-
-- CONFIG_BACKLIGHT_APPLE_DWI
-This enables backlight support on some iPhone, iPad and iPod touch
-models.
 
 For USB:
 Enable:

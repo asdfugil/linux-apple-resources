@@ -18,3 +18,4 @@ The table below lists the amount of non-merge commits between each mainline rele
 |              | linux-apple tag | commit count |
 |--------------|:---------------:|:------------:|
 | v6.13        | apple-6.13      | 82           |
+| v6.14        | apple-6.14      | 111          |
